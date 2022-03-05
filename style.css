@@ -195,3 +195,10 @@ nav{
       outline: 0;
       border: 1px solid #FF008E;
   }
+  footer{
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: gray;
+  }
