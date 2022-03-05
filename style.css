@@ -8,7 +8,8 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 /***************************
- ===========common styles=========
+
+ =========== common styles =========
 
    *******************************/
 .container{
@@ -56,7 +57,9 @@ header{
     background-blend-mode: overlay;
 }
 /********************
+
  navbar styles 
+
  *******************************/
 nav{
     display: flex;
@@ -79,7 +82,9 @@ nav{
 
 }
 /**************************
+
  banner styles 
+
  **********************************/
 .banner{
     height: calc(100vh -80px);
@@ -111,6 +116,7 @@ nav{
     width: 100%;
 }
 /****************************
+
  feature section styles 
 
  *********************************/
@@ -146,3 +152,19 @@ nav{
     text-decoration: none;
     color: #FF008E;
 }
+/***********************
+
+ gallery styles 
+
+ *****************************/
+ .gallery{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 30px;
+ }
+ .photo img{
+     width: 100%;
+     height: 200px;
+     object-fit: cover;
+     border: 3px solid #FF008E;
+ }
